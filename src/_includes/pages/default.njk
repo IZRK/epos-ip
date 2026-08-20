@@ -1,0 +1,35 @@
+{% set heroLead = null %}
+{% if sourcePage.type == 'partner' %}
+  {% set heroLead = 'National expertise and infrastructure within EPOS Slovenia.' %}
+{% elif sourcePage.type == 'media' %}
+  {% set heroLead = 'Videos and presentations from EPOS Slovenia.' %}
+{% endif %}
+{% include "components/page-hero.njk" %}
+<main id="main-content" class="main-content">
+  <div class="article-shell shell">
+    {% set sectionLinks = sourcePage.contentHtml | contentHeadings %}
+    {% set isLegacyTemplate = sourcePage.url == '/home-2/' or sourcePage.url == '/our-story/' or sourcePage.url == '/our-services/' %}
+    {% set showContentIndex = sectionLinks.length > 2 and sourcePage.url != '/partners/' and sourcePage.url != '/consortium/' and not isLegacyTemplate %}
+    <div class="content-layout{% if showContentIndex %} content-layout--indexed{% endif %}">
+      {% if showContentIndex %}
+        <aside class="content-index" aria-label="On this page">
+          <p>On this page</p>
+          <ol>
+            {% for item in sectionLinks %}<li><a href="#{{ item.id }}">{{ item.label }}</a></li>{% endfor %}
+          </ol>
+        </aside>
+      {% endif %}
+      <article class="wp-content prose-content{% if sourcePage.type == 'partner' %} partner-content{% endif %}{% if sourcePage.type == 'partner-publications' %} publication-content{% endif %}{% if sourcePage.url == '/partners/' %} institution-directory partner-directory{% endif %}{% if sourcePage.url == '/consortium/' %} institution-directory consortium-directory{% endif %}{% if sourcePage.type == 'partner' and sourcePage.url != '/partners/' %} partner-profile{% endif %}{% if sourcePage.url == '/contact/' or sourcePage.url == '/contact-us/' %} contact-content{% endif %}{% if sourcePage.url == '/epos-slovenia/' or sourcePage.type == 'post' %} milestone-content{% endif %}{% if isLegacyTemplate %} legacy-showcase{% endif %}{% if sourcePage.url == '/home-2/' %} legacy-showcase--home{% endif %}{% if sourcePage.url == '/our-story/' %} legacy-showcase--story{% endif %}{% if sourcePage.url == '/our-services/' %} legacy-showcase--services{% endif %}">
+      {% if sourcePage.contentHtml %}
+        {{ sourcePage.contentHtml | structureContent(sourcePage) | safe }}
+      {% elif sourcePage.url == '/research/' %}
+        <p class="empty-route-message">Research activities and equipment are presented in the current research section.</p>
+        <p><a class="button button--primary" href="/research-sp/">View research</a></p>
+      {% elif sourcePage.url == '/publications/' %}
+        <p class="empty-route-message">Browse publications and research outputs from EPOS Slovenia.</p>
+        <p><a class="button button--primary" href="/publications-sp/">View publications</a></p>
+      {% endif %}
+      </article>
+    </div>
+  </div>
+</main>

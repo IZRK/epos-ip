@@ -1,0 +1,42 @@
+<header class="site-header" data-site-header>
+  <div class="site-header__inner shell">
+    <a class="brand" href="/" aria-label="EPOS Slovenia home">
+      <img class="brand__logo" src="{{ siteContent.site.logo }}" width="370" height="370" alt="">
+      <span class="brand__name">
+        <strong>EPOS Slovenia</strong>
+        <small>European Plate Observing System</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" data-menu-toggle>
+      <span class="menu-toggle__icon" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span>Menu</span>
+    </button>
+
+    <nav class="site-nav" id="primary-navigation" aria-label="Primary navigation" data-site-nav>
+      <ul class="site-nav__list">
+        {% for item in siteContent.menu %}
+          {% set active = item | isNavActive(page.url) %}
+          <li class="site-nav__item{% if item.children.length %} has-submenu{% endif %}{% if active %} is-active{% endif %}">
+            <div class="site-nav__row">
+              <a href="{{ item.url }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
+              {% if item.children.length %}
+                <button class="submenu-toggle" type="button" aria-expanded="false" aria-controls="submenu-{{ loop.index }}" data-submenu-toggle>
+                  <span class="visually-hidden">Show {{ item.label }} links</span>
+                  <svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><path d="m5 7.5 5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+              {% endif %}
+            </div>
+            {% if item.children.length %}
+              <ul class="submenu" id="submenu-{{ loop.index }}">
+                {% for child in item.children %}
+                  <li><a href="{{ child.url }}"{% if child.url == page.url %} aria-current="page"{% endif %}>{{ child.label }}</a></li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,13 @@
+---
+permalink: /comments/feed/index.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>{{ siteContent.site.name | xmlEscape }} — Comments</title>
+    <link>{{ '/' | absoluteUrl | xmlEscape }}</link>
+    <description>Comments for EPOS Slovenia</description>
+    <language>en</language>
+  </channel>
+</rss>

@@ -1,0 +1,485 @@
+{
+  "title": "EPOS ERIC Slovenia",
+  "summary": "Research Data and Stations",
+  "byline": "IZRK ZRC SAZU",
+  "coverImage": "/assets/storymap/x3nopfs3b-rHR_yZf0ncF.jpeg",
+  "jumpNavigation": [
+    {
+      "label": "EPOS Slovenia",
+      "id": "epos-slovenia"
+    },
+    {
+      "label": "ZRC SAZU",
+      "id": "zrc-sazu"
+    },
+    {
+      "label": "RI-SI-EPOS project at ZRC SAZU",
+      "id": "ri-si-epos-project-at-zrc-sazu"
+    },
+    {
+      "label": "SLO KARST NFO",
+      "id": "slo-karst-nfo"
+    },
+    {
+      "label": "GeoZS",
+      "id": "geozs"
+    },
+    {
+      "label": "IJS",
+      "id": "ijs"
+    },
+    {
+      "label": "UL-FGG",
+      "id": "ul-fgg"
+    },
+    {
+      "label": "ARSO",
+      "id": "arso"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "epos-slovenia",
+      "html": "EPOS Slovenia",
+      "text": "EPOS Slovenia"
+    },
+    {
+      "type": "text",
+      "html": "<strong>Milestones </strong>"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "html": "<li><strong>2010: </strong>started the EPOS PP project, when ZRC SAZU became associate partner within the project.</li><li><strong>March 2011: </strong>EPOS was listed on the Slovenian roadmap of research infrastructures 2011‒2020.</li><li><strong>23th October 2013: </strong>Slovenian Ministry of Education, Science and Sports signed the <em>Letter of Intent </em>for Slovenia‘ cooperation in EPOS consortium.</li><li><strong>18 September 2015 </strong>– ZRC SAZU becomes a member of  the EPOS IP project (48 months) [Horizon 2020 – Programme for Research  and Innovation (2014-2020), Grant Agreement No. 676564, INFRADEV-3-2015 –  Individual implementation and operation of ESFRI projects].</li><li><strong>2016: </strong>EPOS was listed as priority research infrastructure project (environmental sciences).</li><li><strong>4th May 2016</strong>: was established the national consortium EPOS-SI (at the level of Slovenia) and authorizes the Slovenian Ministry of Education, Science and Sports to make all necessary procedures to become member of EPOS-ERIC and for its realization (no. 51102-8/2017/3).</li><li><strong>28th September 2017: </strong>The Slovenian Government signed the resolution, that Republic of Slovenia participates in the EPOS-ERIC (EPOS-European Research Infrastructure Consortium) as full partner.</li><li><a href=\"https://www.epos-ip.org/node/240\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>October the 30</strong><sup><strong>th</strong></sup><strong> 2018</strong>, </a>the European Commission granted the legal status of European Research Infrastructure Consortium (<a href=\"https://www.epos-ip.org/glossary/eric\" rel=\"noopener noreferrer\" target=\"_blank\">ERIC</a>) to EPOS. The <a href=\"https://www.epos-ip.org/glossary/eric\" rel=\"noopener noreferrer\" target=\"_blank\">ERIC</a>  legal framework provides EPOS with legal personality and capacity recognized in all EU Member States and with the flexibility to adapt to the specific requirements of each infrastructure.</li><li><strong>June 20, 2019</strong> – <a href=\"https://www.eu-skladi.si/sl/aktualno/novice/evropska-sredstva-tudi-za-razvoj-raziskovalne-infrastrukture-s-podrocja-geologije-seizmologije-in-geodezije\" rel=\"noopener noreferrer\" target=\"_blank\">RI-SI-EPOS </a>project is funded.</li><li><strong>November 12-13, 2019:</strong> the <a href=\"https://twitter.com/EPOS_Slovenia/status/1194559232303095808\" rel=\"noopener noreferrer\" target=\"_blank\">EPOS</a> NFO meeting is for the first time held in Postojna, Slovenia.</li><li><strong>January 1st 2020</strong>: start of the <a href=\"https://www.zrc-sazu.si/en/programi-in-projekti/european-plate-observing-system-sustainability-phase\" rel=\"noopener noreferrer\" target=\"_blank\">European Plate Observing System Sustainability Phase (EPOS SP)</a>, Slovenian partner in ZRC SAZU.</li>"
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "zrc-sazu",
+      "html": "ZRC SAZU",
+      "text": "ZRC SAZU"
+    },
+    {
+      "type": "text",
+      "html": "<a href=\"#ri-si-epos-project-at-zrc-sazu\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>RI-SI-EPOS project at ZRC SAZU</strong></a>  | <strong> </strong><a href=\"#slo-karst-nfo\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>SLO KARST NFO</strong></a><strong> | </strong><a href=\"#izrk-metadata-portal\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>IZRK metadata portal</strong></a>"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "ri-si-epos-project-at-zrc-sazu",
+      "html": "RI-SI-EPOS project at ZRC SAZU",
+      "text": "RI-SI-EPOS project at ZRC SAZU"
+    },
+    {
+      "type": "text",
+      "html": "ZRC SAZU is leading institution of the project <a href=\"https://izrk.zrc-sazu.si/en/programi-in-projekti/ri-si-epos#v\" rel=\"noopener noreferrer\" target=\"_blank\">»DEVELOPMENT OF RESEARCH INFRASTRUCTURE FOR THE INTERNATIONAL COMPETITIVENESS OF THE SLOVENIAN DEVELOPMENT OF RESEARCH INFRASTRUCTURE SPACE – RI-SI-EPOS«. </a>"
+    },
+    {
+      "type": "video",
+      "title": "RI-SI-EPOS project 2021",
+      "caption": "<em>RI-SI-EPOS project 2021 at ZRC SAZU</em>",
+      "description": "In July 2019, the \"Development of research infrastructure for the international competitiveness of the Slovenian RRI space - RI-SI-EPOS\" project was granted by the Slovenian Ministry of Education, Science and Sport and EC - European Regional Development Fund for the four partners (ZRC SAZU - the leading partner, GeoZS, ULFGG, IJS) from EPOS Slovenia consortium to build a national network for the collection, editing, design, storage of solid Earth data in the field of seismology, geology, geodesy, and near fault observatories (NFO).",
+      "thumbnail": "/assets/remote/i.ytimg.com/vi/NM1so88QNgc/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=NM1so88QNgc",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/NM1so88QNgc"
+    },
+    {
+      "type": "text",
+      "html": "&nbsp;Participating partners are: <a href=\"https://www.geo-zs.si/index.php/en/\" rel=\"noopener noreferrer\" target=\"_blank\">Geological Survey of&nbsp; Slovenia (GeoZS)</a>, <a href=\"http://www3.fgg.uni-lj.si/en/\" rel=\"noopener noreferrer\" target=\"_blank\">University of Ljubljana&nbsp; (Faculty of Civil and Geodetic Engineering UL-FGG)</a> and <a href=\"https://ijs.si/ijsw/JSI\" rel=\"noopener noreferrer\" target=\"_blank\">„Jožef Štefan“ Institute&nbsp; Slovenia (IJS)</a> ."
+    },
+    {
+      "type": "text",
+      "html": "The operation is co-financed by the Republic of Slovenia, the Ministry of Education, Science and Sport and the European Union from the European Regional Development Fund."
+    },
+    {
+      "type": "text",
+      "html": "&nbsp;This operation is being implemented within the framework of the Operational Programme for the Implementation of the European Cohesion Policy 2014-2020, under:"
+    },
+    {
+      "type": "text",
+      "html": "<strong>*Priority Axis 1:</strong> \"International competitiveness of research, innovation and technological development in line with smart specialization for greater competitiveness and greening of the economy\";"
+    },
+    {
+      "type": "text",
+      "html": "<strong>*Priority Investment 1.1</strong>: \"Strengthening infrastructure for research and innovation and the capacity to develop excellence in this area, as well as to promote competent centers, especially those of European importance\";"
+    },
+    {
+      "type": "text",
+      "html": "<strong>*Specific Objective 1.1.1</strong>: \"Effective use of research infrastructure and development of knowledge/competences for better national and international cooperation in the Knowledge Triangle\"."
+    },
+    {
+      "type": "map",
+      "itemId": "daba1ce3c7c74957af450092afb31e41",
+      "caption": "<em>EPOS  &amp; RI-SI-EPOS stations at ZRC SAZU</em>",
+      "center": {
+        "spatialReference": {
+          "latestWkid": 3857,
+          "wkid": 102100
+        },
+        "x": 1645149.042237835,
+        "y": 5834807.479124488
+      },
+      "zoom": 8,
+      "scale": 2311162.217155,
+      "layers": [
+        {
+          "id": "EPOSsupportLocationsWGS_shapefile_9346",
+          "title": "RI-SI-EPOS stations 2021",
+          "visible": true
+        },
+        {
+          "id": "Sloji_shapefile_2855",
+          "title": "Sloji",
+          "visible": false
+        },
+        {
+          "id": "shapefile_active_fault_database_shapefile_3898",
+          "title": "shapefile_active_fault_database",
+          "visible": false
+        },
+        {
+          "id": "EPOSstationRI_SI1jun21_shapefile_1584",
+          "title": "EPOS and RI-SI-EPOS stations 2021",
+          "visible": true
+        },
+        {
+          "id": "Kohezijski_regiji_shapefile_8811",
+          "title": "Slovenian cohesion regions (East & West)",
+          "visible": true
+        },
+        {
+          "id": "Slovenia_shapefile_9975",
+          "title": "Slovenia",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "slo-karst-nfo",
+      "html": "SLO KARST NFO",
+      "text": "SLO KARST NFO"
+    },
+    {
+      "type": "text",
+      "html": "&nbsp;&nbsp;&nbsp; The area south from Postojna is composed mostly of karstified Mesozoic carbonate rocks and partly of non-karstified Eocene flysch. The landscape has numerous karst features as caves, poljes, dolines, uvalas, karst springs, ponors, karst periodical lakes etc. with typical karst groundwater drainage. Postojna flysch basin represents the hydrological divide between Adriatic and Black Sea watershed, which is connected with regional active tectonics."
+    },
+    {
+      "type": "text",
+      "html": "&nbsp;&nbsp;&nbsp;&nbsp; The study area holds several karst springs used for water supply and a military training area, altogether resulting in highly impact environmental protection issues. Proposed NFO network represents multidisciplinary research infrastructures (seismology, geology, geodesy, karstology) on tectonically active, karstic area in SW Slovenia, including multi-parametric sensors (seismology, GNSS, micro-displacements registered with extensometers, continuously monitoring of chemical processes (radon, methane, carbon dioxide), continuously monitoring of cave atmosphere (air T, humidity, air pressure, cave ventilation), monitoring of hydrological parameters).&nbsp;&nbsp;"
+    },
+    {
+      "type": "text",
+      "html": "&nbsp;&nbsp;&nbsp; In Slovenia, karst covers 43% of the country and there are registered more than 14,000 caves. Development of the new NFO network from the area south of Postojna is highly important for gaining new scientific data and products and for realization of the continuously monitoring of chemical and physical processes governing active faults as well as the genesis of earthquakes."
+    },
+    {
+      "type": "text",
+      "html": "<strong>The research is part of </strong><a href=\"https://izrk.zrc-sazu.si/en/programi-in-projekti/european-plate-observing-system-sustainability-phase#v\" rel=\"noopener noreferrer\" target=\"_blank\">Horizon 2020 project EPOS SP </a><strong>and </strong><a href=\"https://izrk.zrc-sazu.si/en/programi-in-projekti/ri-si-epos#v\" rel=\"noopener noreferrer\" target=\"_blank\">EC Cohesion Fund project operation RI-SI-EPOS</a><strong>.</strong>"
+    },
+    {
+      "type": "map",
+      "itemId": "12fdef716cc64c30b667b9100d2ef24f",
+      "caption": "<em>SLO KARST NFO (Postojna) Slovenia </em>",
+      "center": {
+        "spatialReference": {
+          "latestWkid": 3857,
+          "wkid": 102100
+        },
+        "x": 1601795.8730983033,
+        "y": 5802782.27852545
+      },
+      "zoom": 8,
+      "scale": 2311162.217155,
+      "layers": [
+        {
+          "id": "EPOS_locations_shapefile_8718_3654",
+          "title": "SLO KARST NFO equipment – kopija",
+          "visible": true
+        },
+        {
+          "id": "EPOS_locations_shapefile_8718",
+          "title": "SLO KARST NFO equipment",
+          "visible": true
+        },
+        {
+          "id": "csv_3993",
+          "title": "Seismic Network of the Republic of Slovenia (SNRS; potresi.arso.gov.si)",
+          "visible": true
+        },
+        {
+          "id": "slo_shapefile_4973",
+          "title": "Slovenian GNSS stations (SIGNAL; gu-signal.si)",
+          "visible": false
+        },
+        {
+          "id": "active_faults_shapefile_4105",
+          "title": "Active faults in Slovenia (egeologija.si)",
+          "visible": true
+        },
+        {
+          "id": "red0_shapefile_1592",
+          "title": "Slovenian combined geodetic (Zero order) stations (gu-signal.si)",
+          "visible": false
+        },
+        {
+          "id": "ita_shapefile_8707",
+          "title": "Italian GNSS network ( APOS; gu-signal.si)",
+          "visible": false
+        },
+        {
+          "id": "hrv_shapefile_2618",
+          "title": "Croatian GNSS network (CROPOS; gu-signal.si)",
+          "visible": false
+        },
+        {
+          "id": "avst_shapefile_5699",
+          "title": "Austrian GNSS network ( APOS; gu-signal.si)",
+          "visible": false
+        },
+        {
+          "id": "dodatno_shapefile_526",
+          "title": "Passive GNSS control network of Slovenia (gu-signal.si)",
+          "visible": false
+        },
+        {
+          "id": "Kohezijski_regiji_shapefile_9669",
+          "title": "Slovenian cohesion regions (East & West; podatki.gov.si)",
+          "visible": false
+        },
+        {
+          "id": "CarbonateRocks2023_Gostincar_1925",
+          "title": "Carbonate rocks (Gostinčar & Stepišnik, 2023)",
+          "visible": true
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "html": "<strong>References: </strong>"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "html": "<li>Gostinčar, P., 2016. Geomorphological characteristics of karst on contact between limestone and dolomite in Slovenia. Doctoral Thesis. University of Nova Gorica, 276 p.</li>"
+    },
+    {
+      "type": "text",
+      "html": "2. <a href=\"https://gu-signal.si/oprema-na-postajah/\" rel=\"noopener noreferrer\" target=\"_blank\">https://gu-signal.si/oprema-na-postajah/</a>"
+    },
+    {
+      "type": "text",
+      "html": "3. <a href=\"https://podatki.gov.si/data/search?openness_score=3&amp;sort=metadata_modified+desc&amp;page=3\" target=\"_blank\" rel=\"noopener noreferrer\">https://podatki.gov.si/data/search?openness_score=3&amp;sort=metadata_modified+desc&amp;page=3</a>"
+    },
+    {
+      "type": "text",
+      "html": "4. <a href=\"https://egeologija.si/geonetwork/srv/eng/catalog.search#/metadata/0a02f07a-b0a4-46df-b4e3-2276f9aa5d9c\" rel=\"noopener noreferrer\" target=\"_blank\">https://egeologija.si/geonetwork/srv/eng/catalog.search#/metadata/0a02f07a-b0a4-46df-b4e3-2276f9aa5d9c</a>"
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "id": "izrk-metadata-portal",
+      "html": "IZRK metadata portal",
+      "text": "IZRK metadata portal"
+    },
+    {
+      "type": "service",
+      "title": "IZRK Metadata Portal",
+      "caption": "IZRK Metadata Portal",
+      "description": "The IZRK Metadata Portal was developed at the Data Centre of the Karst Research Institute ZRC SAZU from 2021 to 2022 using the GeoNetwork platform to build a system management and user interface for multidisciplinary environmental data mining and access to data products. The architecture of the new metadata portal is compliant with FAIR data principles and data lifecycle, and is collecting and mapping various datasets, databases, research sites and instruments, virtual laboratories, workflows, and codes. The portal offers data for multidisciplinary KARST database and for multidisciplinary research that covers all domains and functionalities of a karst landscape. Moreover, the portal is designed to provide a temporal and spatial link between specific sites and their data as part of three main projects:\n\n    RI-SI-LifeWatch (2019 - 2021)\n    RI-SI-EPOS (2019 - 2021)\n    eLTER RI (2020 - 2025)\n\nPublisher\nKarst research Institute ZRC SAZU, Postojna, Slovenia\nISSN 2820-588X\n\nYear of preparation\n2021 - 2022\n\nDesign and editing\nMagdalena Aljančič, Žan Kafol, Tanja Pipan, Stanka Šebela, Jasmina Čeligoj Biščak, Nataša Ravbar",
+      "thumbnail": "/assets/storymap/eKoUI7vRWa04L2AVjgBwm.jpeg",
+      "url": "https://metadata.izrk.zrc-sazu.si/srv/eng/catalog.search",
+      "embedUrl": null
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "geozs",
+      "html": "GeoZS",
+      "text": "GeoZS"
+    },
+    {
+      "type": "embed",
+      "title": "Geological field observatories",
+      "caption": "Geological field observatories",
+      "description": "",
+      "thumbnail": null,
+      "url": "https://glvn.geo-zs.si/en/",
+      "embedUrl": null
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "ijs",
+      "html": "IJS",
+      "text": "IJS"
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "ul-fgg",
+      "html": "UL-FGG",
+      "text": "UL-FGG"
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "arso",
+      "html": "ARSO",
+      "text": "ARSO"
+    }
+  ],
+  "maps": [
+    {
+      "type": "map",
+      "itemId": "daba1ce3c7c74957af450092afb31e41",
+      "caption": "<em>EPOS  &amp; RI-SI-EPOS stations at ZRC SAZU</em>",
+      "center": {
+        "spatialReference": {
+          "latestWkid": 3857,
+          "wkid": 102100
+        },
+        "x": 1645149.042237835,
+        "y": 5834807.479124488
+      },
+      "zoom": 8,
+      "scale": 2311162.217155,
+      "layers": [
+        {
+          "id": "EPOSsupportLocationsWGS_shapefile_9346",
+          "title": "RI-SI-EPOS stations 2021",
+          "visible": true
+        },
+        {
+          "id": "Sloji_shapefile_2855",
+          "title": "Sloji",
+          "visible": false
+        },
+        {
+          "id": "shapefile_active_fault_database_shapefile_3898",
+          "title": "shapefile_active_fault_database",
+          "visible": false
+        },
+        {
+          "id": "EPOSstationRI_SI1jun21_shapefile_1584",
+          "title": "EPOS and RI-SI-EPOS stations 2021",
+          "visible": true
+        },
+        {
+          "id": "Kohezijski_regiji_shapefile_8811",
+          "title": "Slovenian cohesion regions (East & West)",
+          "visible": true
+        },
+        {
+          "id": "Slovenia_shapefile_9975",
+          "title": "Slovenia",
+          "visible": false
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "itemId": "12fdef716cc64c30b667b9100d2ef24f",
+      "caption": "<em>SLO KARST NFO (Postojna) Slovenia </em>",
+      "center": {
+        "spatialReference": {
+          "latestWkid": 3857,
+          "wkid": 102100
+        },
+        "x": 1601795.8730983033,
+        "y": 5802782.27852545
+      },
+      "zoom": 8,
+      "scale": 2311162.217155,
+      "layers": [
+        {
+          "id": "EPOS_locations_shapefile_8718_3654",
+          "title": "SLO KARST NFO equipment – kopija",
+          "visible": true
+        },
+        {
+          "id": "EPOS_locations_shapefile_8718",
+          "title": "SLO KARST NFO equipment",
+          "visible": true
+        },
+        {
+          "id": "csv_3993",
+          "title": "Seismic Network of the Republic of Slovenia (SNRS; potresi.arso.gov.si)",
+          "visible": true
+        },
+        {
+          "id": "slo_shapefile_4973",
+          "title": "Slovenian GNSS stations (SIGNAL; gu-signal.si)",
+          "visible": false
+        },
+        {
+          "id": "active_faults_shapefile_4105",
+          "title": "Active faults in Slovenia (egeologija.si)",
+          "visible": true
+        },
+        {
+          "id": "red0_shapefile_1592",
+          "title": "Slovenian combined geodetic (Zero order) stations (gu-signal.si)",
+          "visible": false
+        },
+        {
+          "id": "ita_shapefile_8707",
+          "title": "Italian GNSS network ( APOS; gu-signal.si)",
+          "visible": false
+        },
+        {
+          "id": "hrv_shapefile_2618",
+          "title": "Croatian GNSS network (CROPOS; gu-signal.si)",
+          "visible": false
+        },
+        {
+          "id": "avst_shapefile_5699",
+          "title": "Austrian GNSS network ( APOS; gu-signal.si)",
+          "visible": false
+        },
+        {
+          "id": "dodatno_shapefile_526",
+          "title": "Passive GNSS control network of Slovenia (gu-signal.si)",
+          "visible": false
+        },
+        {
+          "id": "Kohezijski_regiji_shapefile_9669",
+          "title": "Slovenian cohesion regions (East & West; podatki.gov.si)",
+          "visible": false
+        },
+        {
+          "id": "CarbonateRocks2023_Gostincar_1925",
+          "title": "Carbonate rocks (Gostinčar & Stepišnik, 2023)",
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Andreea Gutu and Magdalena Aljančič",
+    "<strong>Karst Research Institut ZRC SAZU</strong><br><a href=\"/\">https://epos-ip.zrc-sazu.si/</a>"
+  ]
+}

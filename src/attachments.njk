@@ -1,0 +1,29 @@
+---
+pagination:
+  data: siteContent.attachments
+  size: 1
+  alias: sourcePage
+layout: layouts/base.njk
+eleventyComputed:
+  permalink: "{{ sourcePage.url }}"
+---
+{% include "components/page-hero.njk" %}
+<main id="main-content" class="main-content">
+  <div class="attachment-page shell">
+    {% if sourcePage.mediaType == 'image' %}
+      <figure>
+        <a href="{{ sourcePage.file }}"><img src="{{ sourcePage.file }}" alt="{{ sourcePage.title }}" loading="eager" decoding="async"></a>
+        {% if sourcePage.captionHtml %}<figcaption>{{ sourcePage.captionHtml | safe }}</figcaption>{% endif %}
+      </figure>
+      <p><a class="button button--primary" href="{{ sourcePage.file }}">Open full-size image</a></p>
+    {% else %}
+      <div class="file-download">
+        <span class="file-download__icon" aria-hidden="true">PDF</span>
+        <div>
+          <h2>{{ sourcePage.title }}</h2>
+          <p><a class="button button--primary" href="{{ sourcePage.file }}">Open document</a></p>
+        </div>
+      </div>
+    {% endif %}
+  </div>
+</main>

@@ -1,0 +1,20 @@
+---
+pagination:
+  data: siteContent.pages
+  size: 1
+  alias: sourcePage
+layout: layouts/base.njk
+eleventyComputed:
+  permalink: "{{ sourcePage.url }}"
+---
+{% if sourcePage.type == "home" %}
+  {% include "pages/home.njk" %}
+{% elif sourcePage.type == "news" %}
+  {% include "pages/news.njk" %}
+{% elif sourcePage.type == "publications" %}
+  {% include "pages/publications.njk" %}
+{% elif sourcePage.type == "storymap" %}
+  {% include "pages/data-sites.njk" %}
+{% else %}
+  {% include "pages/default.njk" %}
+{% endif %}

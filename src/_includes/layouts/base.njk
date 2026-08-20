@@ -1,0 +1,28 @@
+<!doctype html>
+<html class="no-js" lang="{{ siteContent.site.language }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>document.documentElement.classList.replace('no-js', 'js');</script>
+    <title>{% if sourcePage.url == '/' %}{{ siteContent.site.longName }}{% else %}{{ sourcePage.title }} | {{ siteContent.site.name }}{% endif %}</title>
+    <meta name="description" content="{{ sourcePage.description | default('European Plate Observing System Slovenia') }}">
+    {% if sourcePage.noindex %}<meta name="robots" content="noindex, follow">{% endif %}
+    <link rel="canonical" href="{{ sourcePage.url | absoluteUrl }}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ siteContent.site.name }}">
+    <meta property="og:title" content="{{ sourcePage.title }}">
+    <meta property="og:description" content="{{ sourcePage.description | default('European Plate Observing System Slovenia') }}">
+    <meta property="og:url" content="{{ sourcePage.url | absoluteUrl }}">
+    <meta property="og:image" content="{{ siteContent.site.logo | absoluteUrl }}">
+    <meta name="theme-color" content="#193f2a">
+    <link rel="icon" href="{{ siteContent.site.logo }}" type="image/png">
+    <link rel="stylesheet" href="/assets/css/site.css">
+    <script src="/assets/js/site.js" defer></script>
+  </head>
+  <body class="page-{{ sourcePage.type }}">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    {% include "components/header.njk" %}
+    {{ content | safe }}
+    {% include "components/footer.njk" %}
+  </body>
+</html>

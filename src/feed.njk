@@ -1,0 +1,28 @@
+---
+permalink: /feed/index.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+{% set newsPage = siteContent.pages | pageByUrl('/events/') %}
+<rss version="2.0">
+  <channel>
+    <title>{{ siteContent.site.name | xmlEscape }}</title>
+    <link>{{ '/' | absoluteUrl | xmlEscape }}</link>
+    <description>News from EPOS Slovenia</description>
+    <language>en</language>
+    <lastBuildDate>{{ newsPage.modified | rfc822 }}</lastBuildDate>
+    {% for group in newsPage.newsGroups %}
+      {% for item in group.items %}
+        {% if loop.index <= 20 and group.year == newsPage.newsGroups[0].year %}
+          <item>
+            <title>{{ item.text | excerpt(120) | xmlEscape }}</title>
+            <link>{{ ('/events/#entry-' + group.year + '-' + loop.index) | absoluteUrl | xmlEscape }}</link>
+            <guid isPermaLink="true">{{ ('/events/#entry-' + group.year + '-' + loop.index) | absoluteUrl | xmlEscape }}</guid>
+            <description>{{ item.text | xmlEscape }}</description>
+            <pubDate>{{ newsPage.modified | rfc822 }}</pubDate>
+          </item>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </channel>
+</rss>

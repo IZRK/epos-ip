@@ -1,0 +1,8 @@
+<header class="page-hero">
+  <div class="page-hero__texture" aria-hidden="true"></div>
+  <div class="page-hero__inner shell">
+    {% if sourcePage.parent %}<p class="eyebrow">{{ sourcePage.parent.title }}</p>{% endif %}
+    <h1{% if sourcePage.title.length > 42 %} class="page-hero__title--long"{% endif %}>{{ sourcePage.title }}</h1>
+    {% if heroLead %}<p class="page-hero__lead">{{ heroLead }}</p>{% endif %}
+  </div>
+</header>

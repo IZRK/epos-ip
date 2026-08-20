@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+permalink: /404.html
+sourcePage:
+  title: Page not found
+  url: /404.html
+  type: error
+  description: The requested page could not be found.
+  noindex: true
+---
+{% include "components/page-hero.njk" %}
+<main id="main-content" class="main-content">
+  <div class="error-page shell">
+    <p>The page you requested could not be found.</p>
+    <a class="button button--primary" href="/">Return to the homepage</a>
+  </div>
+</main>

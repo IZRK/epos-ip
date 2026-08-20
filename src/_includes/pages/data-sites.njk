@@ -1,0 +1,96 @@
+{% set heroLead = storyMap.summary %}
+{% include "components/page-hero.njk" %}
+<main id="main-content" class="main-content data-sites-page">
+  <div class="story-intro shell">
+    <div class="story-intro__identity">
+      {% if storyMap.coverImage %}<img src="{{ storyMap.coverImage }}" width="365" height="365" alt="EPOS Slovenia">{% endif %}
+      <div>
+        <p class="eyebrow">{{ storyMap.byline }}</p>
+        <p>Research infrastructure, observatories and data services.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="story-layout shell">
+    <aside class="story-nav" aria-label="On this page">
+      <p class="archive-nav__title">On this page</p>
+      <ol>
+        {% for item in storyMap.jumpNavigation %}
+          <li><a href="#{{ item.id }}">{{ item.label }}</a></li>
+        {% endfor %}
+      </ol>
+    </aside>
+
+    <article class="story-content">
+      {% set groupedStorySections = storyMap.blocks | storySections %}
+      {% for section in groupedStorySections %}
+        {% set partnerUrl = false %}
+        {% if section.blocks.length == 1 and section.id == 'ijs' %}{% set partnerUrl = '/partners/ijs/' %}{% endif %}
+        {% if section.blocks.length == 1 and section.id == 'ul-fgg' %}{% set partnerUrl = '/partners/ul-fgg/' %}{% endif %}
+        {% if section.blocks.length == 1 and section.id == 'arso' %}{% set partnerUrl = '/partners/arso/' %}{% endif %}
+        <section class="story-section{% if partnerUrl %} story-section--partner{% endif %}">
+          {% for block in section.blocks %}
+            {% if block.type == 'heading' %}
+              {% if block.level <= 2 %}
+                <h2 id="{{ block.id }}">{{ block.html | safe }}</h2>
+              {% else %}
+                <h3 id="{{ block.id }}">{{ block.html | safe }}</h3>
+              {% endif %}
+            {% elif block.type == 'text' %}
+              <p>{{ block.html | safe }}</p>
+            {% elif block.type == 'list' %}
+              {% if block.ordered %}<ol class="story-list">{{ block.html | safe }}</ol>{% else %}<ul class="story-list">{{ block.html | safe }}</ul>{% endif %}
+            {% elif block.type == 'map' %}
+              <figure class="embed-card embed-card--map">
+                <div class="embed-frame embed-frame--map">
+                  <iframe
+                    src="https://zrc.maps.arcgis.com/apps/Embed/index.html?webmap={{ block.itemId }}{% if block.itemId == '12fdef716cc64c30b667b9100d2ef24f' %}&amp;extent=13.0777,45.5202,14.4346,46.0855{% endif %}&amp;zoom=true&amp;previewImage=false&amp;scale=true&amp;disable_scroll=true&amp;theme=light"
+                    title="{{ block.caption | stripHtml }}"
+                    loading="lazy"
+                    allowfullscreen>
+                  </iframe>
+                </div>
+                <figcaption>{{ block.caption | safe }}</figcaption>
+                <p class="embed-fallback"><a href="https://www.arcgis.com/home/item.html?id={{ block.itemId }}" rel="noopener noreferrer">Open the interactive map in a new window</a></p>
+              </figure>
+            {% elif block.type == 'video' %}
+              <figure class="embed-card">
+                <div class="embed-frame embed-frame--video">
+                  <iframe src="{{ block.embedUrl }}" title="{{ block.title }}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                {% if block.caption %}<figcaption>{{ block.caption | safe }}</figcaption>{% endif %}
+                {% if block.description %}<p class="embed-description">{{ block.description }}</p>{% endif %}
+                <p class="embed-fallback"><a href="{{ block.url }}" rel="noopener noreferrer">Watch on YouTube</a></p>
+              </figure>
+            {% elif block.type == 'embed' %}
+              <a class="service-card service-card--text" href="{{ block.url }}" rel="noopener noreferrer">
+                <span class="service-card__body">
+                  <span class="eyebrow">Data portal</span>
+                  <strong>{{ block.title }}</strong>
+                  {% if block.caption %}<span class="service-card__description">{{ block.caption | safe }}</span>{% endif %}
+                  <span class="text-link">Open portal <span aria-hidden="true">↗</span></span>
+                </span>
+              </a>
+            {% elif block.type == 'service' %}
+              <a class="service-card{% if not block.thumbnail %} service-card--text{% endif %}" href="{{ block.url }}" rel="noopener noreferrer">
+                {% if block.thumbnail %}<img src="{{ block.thumbnail }}" alt="" loading="lazy" decoding="async">{% endif %}
+                <span class="service-card__body">
+                  <span class="eyebrow">Data portal</span>
+                  <strong>{{ block.title }}</strong>
+                  {% if block.description %}<span class="service-card__description">{{ block.description }}</span>{% endif %}
+                  <span class="text-link">Open portal <span aria-hidden="true">↗</span></span>
+                </span>
+              </a>
+            {% endif %}
+          {% endfor %}
+          {% if partnerUrl %}<a class="story-partner-link" href="{{ partnerUrl }}">View institution profile <span aria-hidden="true">→</span></a>{% endif %}
+        </section>
+      {% endfor %}
+
+      <footer class="story-credits">
+        <h2 id="credits">Credits</h2>
+        {% for credit in storyMap.credits %}<p>{{ credit | safe }}</p>{% endfor %}
+      </footer>
+    </article>
+  </div>
+</main>

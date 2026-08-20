@@ -1,0 +1,21 @@
+{
+  "name": "epos-slovenia",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "EPOS Slovenia website",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/clean.mjs && eleventy",
+    "dev": "eleventy --serve",
+    "start": "eleventy --serve",
+    "refresh:content": "node scripts/import-content.mjs",
+    "test": "npm run build && node scripts/validate-site.mjs"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "cheerio": "^1.1.2"
+  }
+}

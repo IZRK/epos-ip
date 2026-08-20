@@ -1,0 +1,39 @@
+{% if sourcePage.url == '/events/' %}
+  {% set heroLead = 'Updates from EPOS Slovenia, its projects and research community.' %}
+{% else %}
+  {% set heroLead = 'Meetings, fieldwork, lectures and project activities.' %}
+{% endif %}
+{% include "components/page-hero.njk" %}
+<main id="main-content" class="main-content">
+  <div class="archive-layout shell">
+    <aside class="archive-nav" aria-label="Years">
+      <p class="archive-nav__title">Browse by year</p>
+      <ol>
+        {% for group in sourcePage.newsGroups %}
+          <li><a href="#year-{{ group.year }}">{{ group.year }} <span>{{ group.items.length }}</span></a></li>
+        {% endfor %}
+      </ol>
+    </aside>
+    <div class="news-archive">
+      {% for group in sourcePage.newsGroups %}
+        <section class="news-year" id="year-{{ group.year }}" aria-labelledby="year-{{ group.year }}-title">
+          <header class="news-year__header">
+            <h2 id="year-{{ group.year }}-title">{{ group.year }}</h2>
+            <span>{{ group.items.length }} {% if group.items.length == 1 %}entry{% else %}entries{% endif %}</span>
+          </header>
+          <div class="news-timeline">
+            {% for item in group.items %}
+              <article class="news-item" id="entry-{{ group.year }}-{{ loop.index }}">
+                <span class="news-item__marker" aria-hidden="true"></span>
+                <div class="news-item__content">
+                  {{ item.html | safe }}
+                  {% if item.media %}<div class="news-item__media">{{ item.media | safe }}</div>{% endif %}
+                </div>
+              </article>
+            {% endfor %}
+          </div>
+        </section>
+      {% endfor %}
+    </div>
+  </div>
+</main>
